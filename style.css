@@ -56,10 +56,11 @@ button:disabled {
     overflow: hidden;
   }
   .container {
-    background-size: cover;
-    background-position: center center;
+    background-size: 700px;
+    background-position: center 30%;
   }
   button {
     box-shadow: 2px 2px 10px 5px rgba(0, 0, 0, 0.2);
+    transform: translateY(200px);
   }
 }
