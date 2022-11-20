@@ -51,11 +51,15 @@ button:disabled {
 
 /* Media query for tablets or smaller  */
 @media screen and (max-width: 1000px) {
+  body {
+    max-height: 100vh;
+    overflow: hidden;
+  }
   .container {
     background-size: cover;
     background-position: center center;
   }
   button {
-    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.1);
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.2);
   }
 }
