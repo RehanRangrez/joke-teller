@@ -32,7 +32,7 @@ button {
   color: white;
   background-color: #ff3482;
   border: none;
-  box-shadow: 2px 2px 20px 10px rgba(0, 0, 0, 0.2);
+  box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.1);
   border-radius: 5px;
   transition: 0.1s all ease-in;
 }
@@ -44,7 +44,9 @@ button:active {
 }
 button:disabled {
   cursor: default;
-  filter: brightness(30%);
+  /* filter: brightness(30%); */
+  background: #fff;
+  color: black;
 }
 
 /* Media query for tablets or smaller  */
@@ -54,6 +56,6 @@ button:disabled {
     background-position: center center;
   }
   button {
-    box-shadow: 5px 5px 30px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 20px 5px rgba(0, 0, 0, 0.1);
   }
 }
